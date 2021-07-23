@@ -1,9 +1,9 @@
-# NdCaptcha: 2captcha
+# NdCaptcha: 2Captcha
 
 [![](https://img.shields.io/github/release/warifp/nd-captcha.svg?style=flat-square&sort=semver)](https://github.com/warifp/nd-captcha/releases/)
 [![](https://img.shields.io/packagist/dt/warifp/nd-captcha.svg?style=flat-square)](https://github.com/warifp/nd-captcha/releases/)
 
-API module integration from 2captcha.
+API module integration from [2Captcha](https://2captcha.com).
 
 ### Installation
 
