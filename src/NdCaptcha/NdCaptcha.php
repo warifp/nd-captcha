@@ -39,6 +39,16 @@ Class NdCaptcha
                             'status' => true,
                             'captcha' => $resResponse[1],
                         ];
+                    } else if($resResponse[0] == 'ERROR_WRONG_USER_KEY') {
+                        $data = [
+                            'status' => false,
+                            'captcha' => $resResponse[0],
+                        ];
+                    } else if($resResponse[0] == 'ERROR_WRONG_CAPTCHA_ID') {
+                        $data = [
+                            'status' => false,
+                            'captcha' => $resResponse[0],
+                        ];
                     } else{
                         goto start;
                     }
