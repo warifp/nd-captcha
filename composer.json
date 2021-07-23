@@ -1,0 +1,37 @@
+{
+    "name": "warifp/nd-captcha",
+    "homepage": "https://github.com/warifp/nd-captcha",
+    "description": "API module integration from 2captcha.",
+    "keywords": [
+        "php", "curl", "api", "bypass", "captcha", "google-captcha", "h-captcha", "re-captcha", "re-captcha-v1",
+        "re-captcha-v2", "re-captcha-v3", "audio-captcha", "key-captcha", "fun-captcha", "capy-method", "tiktok-method",
+        "web-scraper", "web-scraping", "web-service"
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "php-curl-class/php-curl-class": "^9.2"
+    },
+    "require-dev": {
+        "ext-gd": "*",
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "suggest": {
+        "ext-mbstring": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "NdCaptcha\\": "src/NdCaptcha"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wahyu Arif Purnomo",
+            "email": "warifp@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
